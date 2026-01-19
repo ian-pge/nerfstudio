@@ -1,6 +1,6 @@
 ns-process-data images --data /workspace/mutagen/undistorted --output-dir /workspace/mutagen/undistorted --skip-colmap
 
-ns-train splatfacto-big \                                                                                                    (nerfstudio) 33s539ms
+ns-train splatfacto-big \                                                                                                    
         --data /workspace/mutagen/undistorted \
         --pipeline.model.rasterize-mode antialiased \
         --pipeline.model.camera-optimizer.mode SO3xR3 \
