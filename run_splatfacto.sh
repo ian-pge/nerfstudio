@@ -1,4 +1,4 @@
-ns-process-data images --data /workspace/mutagen/undistorted --output-dir /workspace/mutagen/undistorted --skip-colmap
+(ns-process-data images --data /workspace/mutagen/undistorted --output-dir /workspace/mutagen/undistorted --skip-colmap)
 
 ns-train splatfacto-big \                                                                                                    
         --data /workspace/mutagen/undistorted \
